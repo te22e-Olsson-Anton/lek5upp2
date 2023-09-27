@@ -18,6 +18,8 @@ public class App {
         System.out.println("Skriv tal fyra: ");
         int tal4 = tb.nextInt();
 
+        tb.nextLine();
+
         array1[0] = tal1;
         array1[1] = tal2;
         array1[2] = tal3;
@@ -44,9 +46,23 @@ public class App {
 
 
 
-        
+        String[] gissa = new String[3];
+        gissa[0] = "hej";
+        gissa[1] = "pa";
+        gissa[2] = "dig";
+
+
+
+        System.out.println("Vad letar du efter?");
+        String gissning = tb.nextLine();
+        System.out.println("Första ordet matchar - "+gissa[0].contains(gissning));
+        System.out.println("Andra ordet matchar - "+gissa[01].contains(gissning));
+        System.out.println("Tredje ordet matchar - "+gissa[02].contains(gissning));
 
         
+
+
+
 
         
 
